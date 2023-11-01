@@ -1,5 +1,7 @@
 # [Arduino Uno R4 WiFi] Webserver day/night toggle
 
+![day/Night toggle](daynight-toggle.jpg "day/night toggle")
+
 Notes :
 - ouvrir le fichier .ino dans l'EDI Arduino (version 2.2.1 pour ma part) ;
 - renseignez l'identifiant SSID/mot de passe de votre box/routeur dans l'onglet du fichier arduino_secrets.h ;
