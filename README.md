@@ -3,7 +3,7 @@
 Dans cette démonstration, le programme transforme votre Arduino R4 WiFi en serveur Web (HTTP) embarqué.
 La page Web depuis votre navigateur comprend une checkbox pour allumer ou éteindre la Led intégrée de la carte Arduino.
 
-![day/Night toggle](daynight-toggle.jpg "day/night toggle")
+![day/Night toggle](switch-on-off.jpg "day/night toggle")
 
 Notes :
 - ouvrir le fichier .ino dans l'EDI Arduino (version 2.2.1 pour ma part) ;
