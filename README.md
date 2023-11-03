@@ -1,5 +1,8 @@
 # [Arduino Uno R4 WiFi] Webserver day/night toggle
 
+Dans cette démonstration, le programme transforme votre Arduino R4 WiFi en serveur Web (HTTP) embarqué.
+La page Web depuis votre navigateur comprend une checkbox pour allumer ou éteindre la Led intégrée de la carte Arduino.
+
 ![day/Night toggle](daynight-toggle.jpg "day/night toggle")
 
 Notes :
@@ -9,4 +12,4 @@ Notes :
 - CSS de la checkbox (fichier css.h) : Licence MIT, Copyright (c) 2023 Josetxu (https://codepen.io/josetxu/pen/Poxwpme)
 - pour cette démo, je suis simplement parti sur les bases de l'exemple fourni par Arduino : https://github.com/arduino/ArduinoCore-renesas/tree/main/libraries/WiFiS3/examples/WiFiWebServer ;
 - bibliothèque supplémentaire à installer : SafeString (https://www.arduino.cc/reference/en/libraries/safestring/) ;
-- sans système de fichiers, les codes statiques HTML/CSS/JavaScript sont stockés dans des const char*, voir index.h, css.h et javascript.h ;
+- sans système de fichiers, les codes statiques HTML/CSS/JavaScript sont stockés dans des const char*, voir index.h, css.h et javascript.h.
